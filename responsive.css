@@ -1,0 +1,82 @@
+@media only screen and (max-width:1113px) and (min-width:768px) {
+    
+ .div-left>.hover-i-p{
+       width: 80%;
+       display: flex ;
+       justify-content: flex-start !important;
+       align-items:center;
+    }
+
+    .right-main{
+        width: 80%;
+        margin-right: 10px;
+    }
+    .download{
+        width: 65%;
+    }
+}
+@media only screen and (max-width:767px) and (min-width:425px) {
+    
+    .div-left>.hover-i-p{
+          width: 100%;
+          display: flex ;
+          justify-content: flex-start !important;
+          align-items:center;
+       }
+   
+       .right-main{
+           width: 80%;
+           margin-right: 10px;
+       }
+       .download{
+           width: 65%;
+           text-align: center;
+           font-size: 10px;
+       }
+       .main>.section-1{
+           height: 150px;
+
+       }
+       .section-1>h3{
+           font-weight: 100;
+       }
+   }
+   @media only screen and (max-width:424px) and (min-width:320px) {
+    
+    .div-left>.hover-i-p{
+          width: 100%;
+          display: flex ;
+          justify-content: flex-start !important;
+          align-items:center;
+          text-align: center;
+       }
+   
+       .right-main{
+           width: 100%;
+           margin-right: 10px;
+           
+       }
+       .download{
+           width: 65%;
+           text-align: center;
+           font-size: 10px;
+       }
+       .main>.section-1{
+        height: 150px;
+
+    }
+    .section-1>h3{
+        font-weight: 100;
+        text-align: center;
+    }
+    .div-average>.icon-boundaries:nth-child(2){
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+    .section-cards{
+        display: flex;
+        justify-content: center !important;
+    }
+    
+   
+}

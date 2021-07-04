@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbarın yuxarı hissesi */
+#main-div{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-top{
+    width: 100%;
+    height: 65px;
+    border-bottom:3px solid #DC392D ;
+}
+.div-left{
+    width: 33%;
+    height: 65px;
+    color: grey;
+}
+.hover-i-p{
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+}
+.hover-i-p:hover{
+    background-color: rgb(226, 219, 219);
+}
+.div-left .hover-i-p>p{
+    margin-top: 11px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.div-left .hover-i-p>i{
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+
+.div-average{
+    width: 33%;
+    height: 65px;
+    font-size: 20px;
+    color: grey;
+}
+.icon-boundaries{
+    width: 8%;
+    height: 36px;
+    color: grey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 350ms color linear;
+}
+.icon-boundaries:hover{
+    background-color: rgb(185, 183, 183);
+}
+.div-average>.icon-boundaries:nth-child(2){
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.div-right{
+    width: 33%;
+    height: 65px;
+}
+.right-main{
+    width: 50%;
+    height: 65px;
+}
+.download{
+    width: 55%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #F0E3E7;
+    color: #DC392D;
+}
+/* Navbar Yuxarı End */
+
+.main>.section-1{
+    width: 100%;
+    height: 300px;
+    background-color:#212529;
+    margin-bottom: 50px;
+}
+
+.foother{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: #212529 !important;
+    color: white;
+}
